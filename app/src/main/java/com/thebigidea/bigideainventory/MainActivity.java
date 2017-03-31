@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         Imgproc.adaptiveThreshold(matBlur, matAdap, 255, Imgproc.ADAPTIVE_THRESH_MEAN_C, Imgproc.THRESH_BINARY_INV, 15, 4);
 
         Imgproc.HoughLinesP(matAdap, lines, rho, theta, threshold, minLineSize, lineGap);
-        //Imgproc.HoughLines(matAdap, lines, rho, theta, threshold);
+        //Imgproc.HoughLines(matAdap, lines, rho, theta, threshold); 
 
         for (int x = 0; x < lines.rows(); x++)
         {
