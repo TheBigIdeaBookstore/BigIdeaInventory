@@ -9,7 +9,7 @@ To get this to run:
 
 3 - Make a copy of default.CMakeLists.txt and rename it CMakeLists.txt
 
-4 - Change line 9 in CMakeLists.txt so that [yourPathToOpenCV] is the directory where you cloned the repo
+4 - Change line 9 in CMakeLists.txt so that [yourPathToOpenCV] is the directory where you cloned the repo (if your path has spaces in it put a backslash (\) before each space
 
 5 - Open this project in Android Studio
 
